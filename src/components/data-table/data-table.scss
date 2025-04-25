@@ -1,0 +1,33 @@
+.data-table-container:has(.data-table-border) {
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 8px;
+  padding: 8px 16px 0px 16px;
+}
+
+.data-table-container {
+  .fixed-header thead {
+    position: sticky;
+    background-color: white;
+    overflow: auto;
+    top: 0;
+    z-index: 1;
+  }
+
+  table {
+    background-color: white;
+    width: 100%;
+    border-collapse: collapse;
+
+    thead {
+      height: 46px;
+    }
+
+    td {
+      height: 46px;
+    }
+  }
+
+  .data-table-border-row tbody tr:not(:last-child) {
+    border-bottom: 1px solid rgb(230, 230, 230);
+  }
+}
