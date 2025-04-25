@@ -1,6 +1,6 @@
 # Custom Components
 
-This project provides React components that needed to be developed without using external libraries.
+This project provides generic or custom components that at some point were needed to be created.
 
 ### Installation
 
