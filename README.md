@@ -1,6 +1,6 @@
 # Custom Components
 
-This project provides generic or custom components that at some point were needed to be created.
+This project has custom components without external dependencies. They serve as a base to improve or use with some internal design system.
 
 ### Installation
 
@@ -21,6 +21,8 @@ This project provides generic or custom components that at some point were neede
    ```sh
    npm run dev
    ```
+
+4. Access http://localhost:3000
 
 ### Usage
 
